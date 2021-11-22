@@ -16,15 +16,15 @@ Aqui los demos de los 3 ejercicios sin edicion, solo la grabacion desde Instagra
 
 Jumping Jacks Demo:
 
-[![Jumping](https://i.ibb.co/ZN4WdbD/Whats-App-Image-2021-11-20-at-8-41-21-PM.jpg)](https://youtu.be/GWBVyP5BqS8)
+[![Jumping](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/GWBVyP5BqS8)
 
 Shoulder Press Demo:
 
-[![Shoulder](https://i.ibb.co/ZN4WdbD/Whats-App-Image-2021-11-20-at-8-41-21-PM.jpg)](https://youtu.be/LvTEQ7AaOu4)
+[![Shoulder](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/LvTEQ7AaOu4)
 
 Squat Demo:
 
-[![Squat](https://i.ibb.co/ZN4WdbD/Whats-App-Image-2021-11-20-at-8-41-21-PM.jpg)](https://youtu.be/OHn_5Ebqn7A)
+[![Squat](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/OHn_5Ebqn7A)
 
 # Xercise Code:
 
