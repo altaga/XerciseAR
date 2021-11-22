@@ -4,16 +4,15 @@ The Instagram Filter that helps you exercise through AI. It recognizes parts of 
 
 <img src="https://i.ibb.co/ZN4WdbD/Whats-App-Image-2021-11-20-at-8-41-21-PM.jpg" width="1000">
 
-Si eres Juez en este link puedes probar el filtro, el cual ya es publico para que cualquiera lo use.
+If you are a Judge in this link you can test the filter, which is already public for anyone to use.
 
 Link: https://www.instagram.com/ar/251870160174280/
 
-O tambien puedes escanear el QR.
+Or you can also scan the QR.
 
 <img src="https://i.ibb.co/hyQckcC/image.png">
 
-Aqui los demos de los 3 ejercicios sin edicion, solo la grabacion desde Instagram.
-
+Here are the demos of the 3 exercises without editing, only the recordings from Instagram.
 Jumping Jacks Demo:
 
 [![Jumping](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/GWBVyP5BqS8)
@@ -28,36 +27,36 @@ Squat Demo:
 
 # Xercise Code:
 
-Para el desarrollo del filtro fue indispensable el uso de un script, el cual se encargo de todo el analisis de las relaciones entre los puntos del cuerpo, con el fin de poder detectar que se estaba haciendo bien un ejercicio.
+To develop the filter, the use of a script was essential, which was in charge of all the analysis of the relationships between the points of the body, in order to be able to detect that an exercise was being done well.
 
-Tanto el script y los patches estan comentados para facilitar la revision del codigo.
+Both the script and the patches are commented to facilitate code review.
 
  ## Spark Script Libraries:
 
 - Scene:
-  - Obtencion de los puntos X,Y de cada parte detectada del cuerpo.
+  - Obtaining the X, Y points of each detected part of the body.
 
 - Patches:
-  - Comunicacion de las variables del script con los elementos en los Patches.
+  - Communication of the script variables with the elements in the Patches.
   
 - Time:
-  - Eventos basados en tiempo, como lo son el timer de 5 segundos al inicio y el ciclo infinito
+  - Time-based events, such as the 5-second timer at the start and the infinite cycleBridge to track the points on the screen with the body.
 
 ## Patches Used:
 
 - Body Finder:
-  - Puente para realizar el tracking de los puntos en pantalla con el cuerpo.
+  - Bridge to track the points on the screen with the body.
   
 - Audio Player:
-  - Se utiliza para toda la reproduccion de audio del efecto.
+  - Used for all effect audio playback.
 
 
 - Boolean Operators:
-  - Se utilizan compuertas and, or y not con el fin de manipular la aparicion y desaparicion de elementos como canvas.
+  - And, or and not gates are used in order to manipulate the appearance and disappearance of elements such as canvas.
 
 
 - Visible Block:
-  - Con este bloque manejamos la aparicion y desaparicion de los canvas y elementos varios.
+  - With this block we handle the appearance and disappearance of canvases and various elements.This specific block has all the instructions in javascript, for more details enter
 
 - Script:
-  - Este bloque en especifico tiene todas las instrucciones en javascript, para mas detalles entrar en [Script](./Xercise%20-%20Spark%20AR/scripts/script.js)
+  - This specific block has all the instructions in javascript, for more details enter [Script](./Xercise%20-%20Spark%20AR/scripts/script.js)
