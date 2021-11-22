@@ -2,7 +2,7 @@
  
 The Instagram Filter that helps you exercise through AI. It recognizes parts of the body, and the filter guides you through a series of exercises to improve your health, everything based on Instagram. 
 
-<img src="https://i.ibb.co/ZN4WdbD/Whats-App-Image-2021-11-20-at-8-41-21-PM.jpg" width="1000">
+<img src="https://i.ibb.co/xsMKQGM/x1-1.png" width="1000">
 
 If you are a Judge in this link you can test the filter, which is already public for anyone to use.
 
@@ -15,15 +15,15 @@ Or you can also scan the QR.
 Here are the demos of the 3 exercises without editing, only the recordings from Instagram.
 Jumping Jacks Demo:
 
-[![Jumping](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/GWBVyP5BqS8)
+[![Jumping](https://i.ibb.co/sP08Dgh/x2.png)](https://youtu.be/GWBVyP5BqS8)
 
 Shoulder Press Demo:
 
-[![Shoulder](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/LvTEQ7AaOu4)
+[![Shoulder](https://i.ibb.co/sP08Dgh/x2.png)](https://youtu.be/LvTEQ7AaOu4)
 
 Squat Demo:
 
-[![Squat](https://i.ibb.co/SfZm0G3/clock.jpg)](https://youtu.be/OHn_5Ebqn7A)
+[![Squat](https://i.ibb.co/sP08Dgh/x2.png)](https://youtu.be/OHn_5Ebqn7A)
 
 # Xercise Code:
 
@@ -36,27 +36,41 @@ Both the script and the patches are commented to facilitate code review.
 - Scene:
   - Obtaining the X, Y points of each detected part of the body.
 
+https://sparkar.facebook.com/ar-studio/learn/reference/classes/SceneModule
+
 - Patches:
   - Communication of the script variables with the elements in the Patches.
+
+https://sparkar.facebook.com/ar-studio/learn/reference/classes/PatchesModule
   
 - Time:
   - Time-based events, such as the 5-second timer at the start and the infinite cycleBridge to track the points on the screen with the body.
+
+https://sparkar.facebook.com/ar-studio/learn/reference/classes/TimeModule
 
 ## Patches Used:
 
 - Body Finder:
   - Bridge to track the points on the screen with the body.
+
+https://sparkar.facebook.com/ar-studio/learn/patch-editor/body-landmark-patches
   
 - Audio Player:
   - Used for all effect audio playback.
 
+https://sparkar.facebook.com/ar-studio/learn/patch-editor/audio-patches/audio-player-patch/
 
 - Boolean Operators:
   - And, or and not gates are used in order to manipulate the appearance and disappearance of elements such as canvas.
 
+https://sparkar.facebook.com/ar-studio/learn/patch-editor/logic-patches/
 
 - Visible Block:
   - With this block we handle the appearance and disappearance of canvases and various elements.This specific block has all the instructions in javascript, for more details enter
 
+https://sparkar.facebook.com/ar-studio/learn/tutorials/making-objects-appear/
+
 - Script:
   - This specific block has all the instructions in javascript, for more details enter [Script](./Xercise%20-%20Spark%20AR/scripts/script.js)
+
+https://sparkar.facebook.com/ar-studio/learn/scripting/scripting-basics/
